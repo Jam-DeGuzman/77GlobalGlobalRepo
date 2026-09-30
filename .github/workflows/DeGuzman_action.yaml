@@ -16,4 +16,4 @@ jobs:
           Write-Output "Repository Name: ${{ github.repository }}"
 
           Write-Output "Files in Github Workspace:"
-          tree "${{ github.workspace }}" /F
+          tree "${{ github.workspace }}"
