@@ -19,4 +19,4 @@ jobs:
           Write-Output "Repository Name: ${{ github.repository }}"
 
           Write-Output "Files in Github Workspace:"
-          Get-ChildItem -Path $env:GITHUB_WORKSPACE /F
+          tree "$env:GITHUB_WORKSPACE" /F
